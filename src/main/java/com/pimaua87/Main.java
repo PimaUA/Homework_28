@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         CoffeeOrderBoard coffeeOrderBoard = new CoffeeOrderBoard();
 
-        coffeeOrderBoard.add(new Order("Zohan", "coffee"));
+        coffeeOrderBoard.add(new Order("Leo", "coffee"));
         coffeeOrderBoard.deliver();
         coffeeOrderBoard.deliver(3);
         coffeeOrderBoard.draw();
